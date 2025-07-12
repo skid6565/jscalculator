@@ -1,0 +1,53 @@
+body
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-position: center;
+    text-align: center;
+    align-content: center;
+    
+}
+
+#btn
+{
+    background-color: #333;
+    color: white;
+    border: 1px solid #555;
+    padding: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+   
+}
+
+#display
+{
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    font-size: 32px;
+    border: 1px solid #555;
+    margin-bottom: 10px;
+   text-align: right;
+}
+
+#opt
+{
+    background-color: #d4aa1f;
+    color: white;
+    border: 1px solid #666;
+    padding: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+.calculator
+{
+    
+   width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}

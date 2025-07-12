@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="calculator">
+     <table>
+    
+    <tr>
+      <td colspan="4" id="display">0</td>
+    </tr>
+
+    <tr>
+      <td id="opt" onclick="clearDisplay()">AC</td>
+      <td id="opt" onclick="changenumb()">+/-</td>
+      <td id="opt" onclick="calculate('%')">%</td>
+      <td id="opt" onclick="calculate('/')">÷</td>
+    </tr>
+
+    
+    <tr>
+      <td id="btn" onclick="press(7)">7</td>
+      <td id="btn" onclick="press(8)">8</td>
+      <td id="btn" onclick="press(9)">9</td>
+      <td id="opt" onclick="calculate('*')">×</td>
+    </tr>
+
+    
+    <tr>
+      <td id="btn" onclick="press(4)">4</td>
+      <td id="btn" onclick="press(5)">5</td>
+      <td id="btn" onclick="press(6)">6</td>
+      <td id="opt" onclick="calculate('-')">-</td>
+    </tr>
+
+    
+    <tr>
+      <td id="btn" onclick="press(1)">1</td>
+      <td id="btn" onclick="press(2)">2</td>
+      <td id="btn" onclick="press(3)">3</td>
+      <td id="opt" onclick="calculate('+')">+</td>
+    </tr>
+
+    
+    <tr>
+      <td id="btn" colspan="2" onclick="press('0')">0</td>
+      <td id="opt" onclick="press('.')">.</td>
+      <td id="opt" onclick="equals()">=</td>
+    </tr>
+    </table>
+    </div>
+    
+</body>
+</html>
